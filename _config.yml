@@ -1,16 +1,16 @@
 # Site settings
-title: 기계인간 John Grib
-url: "https://johngrib.github.io"
+title: rudyannnn
+url: "https://rudyannnn.github.io"
 baseurl: ""
 description: >
-    기계인간 블로그
+    rudyannnn 블로그
 
 # My information
-email: johngrib82@gmail.com
-author: 기계인간 John Grib
-profile: 유물론자
-twitter_username: John_Grib
-github_username: johngrib
+email: rudyannnn@gmail.com
+author: rudyannnn 
+profile: circuitEngineer
+twitter_username: ru983k
+github_username: rudyannnn
 comment-support: utterances
 
 # Build settings
@@ -38,10 +38,10 @@ collections:
 
 # Comment Service
 disqus:
-  id: johngrib
-  shortname: johngrib
+  id: rudyannnn
+  shortname: rudyannnn
 utterances:
-  repo: johngrib/johngrib.github.io
+  repo: help/rudyannnn.github.io
   issue-term: pathname
   label: Comment
   branch: master
@@ -52,12 +52,18 @@ google_analytics:
 google_adsense:
   client: ca-pub-3675948545737694
 
-blame: "https://github.com/johngrib/johngrib.github.io/blame/master/_wiki"
-edit: "https://github.com/johngrib/johngrib.github.io/edit/master/_wiki"
-issue: "https://github.com/johngrib/johngrib.github.io/issues/new"
+blame: "https://github.com/rudyannnn/rudyannnn.github.io/blame/master/_wiki"
+edit: "https://github.com/rudyannnn/rudyannnn.github.io/edit/master/_wiki"
+issue: "https://github.com/rudyannnn/rudyannnn.github.io/issues/new"
 
 timezone: "Asia/Seoul"
 
 # https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
 kramdown:
     smart_quotes: ["apos", "apos", "quot", "quot"]
+# This will require each of these plugins automatically.
+plugins:
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - another-jekyll-plugin
