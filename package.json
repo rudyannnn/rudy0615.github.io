@@ -4,7 +4,9 @@
   "description": "data generator",
   "main": "generateData.js",
   "dependencies": {
-    "yamljs": "^0.3.0"
+    "fs": "0.0.1-security",
+    "yamljs": "^0.3.0",
+    "yarn": "^1.22.4"
   },
   "devDependencies": {},
   "scripts": {
