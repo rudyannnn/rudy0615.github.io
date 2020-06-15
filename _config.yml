@@ -67,3 +67,5 @@ plugins:
   - jekyll-coffeescript
   - jekyll-assets
   - another-jekyll-plugin
+
+theme: jekyll-theme-tactile
